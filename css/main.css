@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: ˜Roboto˜, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body > header {
+    background-color:#2f3640;
+    color: whitesmoke;
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    color: whitesmoke;
+    padding: 8px;
+}
+
+header li a:hover {
+    background-color: whitesmoke;
+    color: #2f3640;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+section {
+    padding: 16px; 
+}
+
+section h2, 
+.articles article {
+    margin-bottom: 16px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 400px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    color: #555555;
+    padding: 8px;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    background-color: #555555;
+    color: whitesmoke;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a:hover {
+    background-color: #009432;
+}
+
+#economy {
+    background-color: rgb(251, 242, 189);
+}
+
+#economy .articles article a:hover {
+    background-color: gold;
+}
+
+#entertainment {
+    background-color: rgb(176, 249, 224);
+}
+
+#entertainment .articles article a:hover {
+    color: #2f3640;
+    background-color: aqua;
+}
+
+#tecnology {
+    background-color: rgb(182, 182, 250);
+}
+
+#tecnology .articles article a:hover {
+    background-color: blue;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3640;
+    color: whitesmoke;
+}
